@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+    Authenticate
+{% endblock title %}
+
+{% block body %}
+<form action="{{url_for('authenticate')}}" method="POST" >
+    <input type="hidden" value="login" name='page_name'>
+    <button type="submit" class="btn btn-primary btn-lg btn-block">Log In</button>
+</form>
+
+<form action="{{url_for('authenticate')}}" method="POST" >
+    <input type="hidden" value="register" name='page_name'>
+    <button type="submit" class="btn btn-danger btn-lg btn-block">Register</button>
+</form>
+    
+{% endblock body %}

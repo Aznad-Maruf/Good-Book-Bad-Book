@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+{% block title %}
+    Login
+{% endblock title %}
+
+{% block body %}
+<form action="{{url_for(page_name)}}" method="post">
+    <div class="form-group">
+      <input type="text" class="form-control" id="name" placeholder="Enter Username" name="name_">
+    </div>
+    <div class="form-group">
+      <input type="password" class="form-control" id="password" placeholder="Password" name="password_">
+    </div>
+    <button type="submit" class="btn btn-danger btn-block text-capitalize">{{ page_name }}</button>
+</form>
+{% endblock body %}

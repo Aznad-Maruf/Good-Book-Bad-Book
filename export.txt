@@ -1,0 +1,6 @@
+export FLASK_APP=application.py
+export FLASK_DEBUG=1
+export DATABASE_URL=postgres://cntdpbogvltstm:207cbd98bb01ef2f1e3a9f54cfaab3439dd2f1d29e73ec675e7800f02f99e0a8@ec2-52-202-146-43.compute-1.amazonaws.com:5432/da8ldhe8qn3kqs
+flask run
+
+GoodReadsAPIKey: wJWW3FonxOEDCtGiXXgjTg
