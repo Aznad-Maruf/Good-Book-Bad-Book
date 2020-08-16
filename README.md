@@ -1,3 +1,4 @@
-# Project 1
+# Book review website
 
-Web Programming with Python and JavaScript
+This web application is a part of Harvard CS50's Web Development Course.
+Technology used: Flask, Python.
